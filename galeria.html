@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de Imágenes</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="interactividad.js" defer></script>
+</head>
+<body>
+  <h1 class="titulo-galeria">Galería de Imágenes</h1>
+  
+  <!-- Galería de Imágenes -->
+  <div class="galeria">
+    <div class="imagen-container" onclick="mostrarImagen('img/imagen1.jpg')">
+      <img src="img/imagen1.jpg" alt="Imagen 1">
+    </div>
+    <div class="imagen-container" onclick="mostrarImagen('img/imagen2.jpg')">
+      <img src="img/imagen2.jpg" alt="Imagen 2">
+    </div>
+    <div class="imagen-container" onclick="mostrarImagen('img/imagen3.jpg')">
+      <img src="img/imagen3.jpg" alt="Imagen 3">
+    </div>
+    <div class="imagen-container" onclick="mostrarImagen('img/imagen4.jpg')">
+      <img src="img/imagen4.jpg" alt="Imagen 4">
+    </div>
+    <div class="imagen-container" onclick="mostrarImagen('img/imagen5.jpg')">
+      <img src="img/imagen5.jpg" alt="Imagen 5">
+    </div>
+    <div class="imagen-container" onclick="mostrarImagen('img/imagen6.jpg')">
+      <img src="img/imagen6.jpg" alt="Imagen 6">
+    </div>
+  </div>
+  
+  <!-- Modal para mostrar la imagen ampliada -->
+  <div id="modal" class="modal" onclick="cerrarModal()">
+    <img id="imagen-ampliada" src="" alt="Imagen Ampliada">
+  </div>
+
+</body>
+</html>
