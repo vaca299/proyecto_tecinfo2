@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cursos de Reciclaje Artesanal de Papel</title>
+    <link rel="stylesheet" href="contenido.css" />
+</head>
+<body>
+    <header>
+        <h1>Reciclaje Artesanal de Papel</h1>
+        <p class="subtitle">Aprende a transformar papel usado en hojas nuevas</p>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>¿Qué es nuestro proyecto?</h2>
+            <p>
+                Te invitamos a formar parte de nuestro proyecto para reciclar papel artesanalmente. 
+                Aprenderás a triturar papel usado, mezclarlo con agua y crear nuevas hojas con moldes. 
+                ¡Contribuye al cuidado del medio ambiente de forma creativa y práctica!
+            </p>
+        </section>
+
+        <section id="cursos">
+            <h2>Cursos Disponibles</h2>
+            <div class="curso-card" tabindex="0">
+                <h3>Tritura y Prepara la Mezcla</h3>
+                <p>Aprende a triturar papel usado y preparar la mezcla base con agua.</p>
+                <button class="btn-detalle" data-curso="triturar">Ver más</button>
+            </div>
+            <div class="curso-card" tabindex="0">
+                <h3>Moldeo y Secado</h3>
+                <p>Descubre cómo vaciar la mezcla en moldes y obtener hojas listas para usar.</p>
+                <button class="btn-detalle" data-curso="moldeo">Ver más</button>
+            </div>
+            <div class="curso-card" tabindex="0">
+                <h3>Aplicaciones Creativas</h3>
+                <p>Usa tus hojas recicladas para manualidades, arte y mucho más.</p>
+                <button class="btn-detalle" data-curso="creativas">Ver más</button>
+            </div>
+        </section>
+
+        <section id="detalle-curso" class="hidden">
+            <button id="btn-close">Cerrar</button>
+            <div id="detalle-contenido"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Proyecto Reciclaje Artesanal - Cuidemos nuestro planeta</p>
+    </footer>
+
+    <script src="contenido.js"></script>
+</body>
+</html>
